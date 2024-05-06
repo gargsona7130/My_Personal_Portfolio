@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/30c8008f72.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/My_logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Fresher </p>
+                <h2> Hi,I'm <span> Sonal Garg </span><br>
+                    from Karnal,Haryana </h2>
+            </div>
+        </div>
+    </div>
+
+    <!------- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me </h1>
+                    <p> I am a self-motivated and hardworking Computer Science Student.I am excited to apply my Knowledge and hands-on
+                        experience gained through Internships and academic-projects.A quick learner with a passion for Problem-solving,
+                    I am ready to contribute my skills and collaborate with a dynamic team to create innovative solutions. </p>
+
+                          <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('experience')"> Experience </p>
+                            <p class="tab-links" onclick="opentab('skills')"> Skills </p>
+                            
+                            <p class="tab-links" onclick="opentab('education')"> Education </p>
+                          </div>
+                          <div class="tab-contents active-tab" id="experience">
+                            <ul>
+                                <li> <span> 2024 - Current </span><br> Web developer Internship at Hemped Souls International LLP </li>
+                                <li> <span> 2023  </span><br> Front End developer Internship at Wictronix </li>
+                                <li> <span> 2022 </span><br> Machine Learning Training from Internshala </li>
+                            </ul>
+                          </div>
+                          <div class="tab-contents " id="skills">
+                            <ul>
+                                <li> <span> Languages </span><br> C <br> C++ <br> Python <br> Javascript </li>
+                                <li> <span> Library </span><br> React <br> STL </li>
+                                <li> <span> CourseWork </span><br> Operating System <br> DBMS <br> SQL </li>
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="experience">
+                            <ul>
+                                <li> <span> 2024 - Current </span><br> Web developer Internship at Hemped Souls International LLP </li>
+                                <li> <span> 2023  </span><br> Front End developer Internship at Wictronix </li>
+                                <li> <span> 2022 </span><br> Machine Learning Training from Internshala </li>
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="education">
+                            <ul>
+                                <li> <span> 2024 </span><br> BE(CSE) from Chandigarh University <br>
+                                CGPA-8.24(Current)</li>
+                                <li> <span> 2020 </span><br> 12th from Dyal Singh Public School(Karnal) <br>
+                                Percentile-95.4 </li>
+                                <li> <span> 2018 </span><br> 10th from Narsingh Dass PUblic School <br>
+                                Percentile-86.4 </li>
+                            </ul>
+                          </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------ Services----------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Certifications </h2>
+                    <p> Successfull Implementation of 3-D
+                        Model(PRO LABELS Pvt. Ltd)
+                        <br>
+                       <br> 
+                       Software Testing [Scored 76% (Nptel
+                       Online Certification)]
+                        <br>
+                        <br>
+                        Data Mining [Scored 77% (Nptel Online
+                        Certification)]
+                        <br>
+                        <br>
+                        Certificate of Excellence in Soft Skills
+(Chandigarh University)
+                        </p>
+                         <a href="#"> learn more </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2> Projects </h2>
+                    <h3> Movie Recommendation System </h3>
+                    <br>
+                    <p> Developed a Movie recommendation system for around
+                        5000 data(Dataset Taken from Kaggle).
+                    </p>
+                    <br>
+                        <h3> E-tourism Website </h3>
+                        <br>
+                        <p> Created Trvael Website that is very User-Friendly and
+                            Interactive.
+                        </p>
+                         <a href="#"> learn more </a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2> Accomplishments </h2>
+                    <p> Solved 400+ Problems on various coding
+                        platforms.
+                        <br>
+                        <br>
+                        Student of the year (2019-20).
+                        <br>
+                        <br>
+                        Anchoring in "Expert Talk on Science of
+                        Happiness" by Mr. Rekhi.
+                        <br>
+                        <br>
+                        Participated in Hackshield Hackathon
+                        (Held at Chandigarh University).
+                        </p>
+                         <a href="#"> learn more </a>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <!--------------portfolio------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/neet.png">
+                    <div class="layer">
+                        
+                             <a href="https://neetwellness.in/"> <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/urhemped.png">
+                    <div class="layer">
+                        
+                             <a href="https://urhemped.com/"> <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/blunt.png">
+                    <div class="layer">
+                        
+                             <a href="https://bluntessential.com/"> <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/hebe.png">
+                    <div class="layer">
+                       
+                             <a href="https://hebe-wellness.com/"> <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See more </a>
+        </div>
+    </div>
+
+    <!-----------------contact---------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me </h1>
+                    <p><i class="fas fa-paper-plane"> </i> sonalgarg870@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"> </i> 8708585527 </p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/sonal.garg.79656"><i class="fab fa-facebook"> </i></a>
+                        <a href="https://www.instagram.com/sonal.garg.79656/"><i class="fab fa-instagram"> </i></a>
+                        <a href="https://www.linkedin.com/in/sonal-garg-2188631bb/"><i class="fab fa-linkedin"> </i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1g85t1Cy0XZB2gs9ry6QrgOAGYDqz0UYG/view?usp=sharing" download class="btn btn">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit </button>
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright @ Sonal.Made with 
+                <i class="fas fa-heart"> </i>
+                by Easy Tutorials </p> 
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyhyPbcbqJ3aVzwr5Jw4tyK9cr7KLDJnHaEuER7FN0y7ENSJhQXuUE27k7Fi0q0HZlU/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""},5000)
+                form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
